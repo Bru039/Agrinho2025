@@ -43,9 +43,11 @@ header {
 }
 
  img {
-    width: 300px;
-    height: 200px;
-    display:block
+    display: block
+    margin-left  auto
+    margin-right auto
+    width 300px; /* ajuste conforme nessário */
+    height 100; /* mantém a proporção da imagem */
 }
 
 header h1 {
