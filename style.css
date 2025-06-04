@@ -42,12 +42,12 @@ header {
     padding: 20px;
 }
 
- img {
-    display: block
-    margin-left  auto
-    margin-right auto
-    width 300px; /* ajuste conforme nessário */
-    height 100; /* mantém a proporção da imagem */
+img {
+    width: 300px; /* largura da imagem*/
+    height: auto; /* Mantém a proporção */
+    display: block;
+    margin: 20px auto; /* Centraliza */
+
 }
 
 header h1 {
@@ -102,6 +102,7 @@ ul {
     padding: 10px;
     background: var(--secondary-color);
     color: var(--text-color);
+
     text-align: center;
     font-weight: bold;
     border: none;
@@ -153,13 +154,3 @@ footer .cta-footer:hover {
         width: 100%;
     }
 }
-
-/* Outros estilos */
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-strong {
-    font-weight: bold;
-}
-
